@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="lofinpage.css">
+<script src="jalo.js" defer></script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .gfg {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .text-container {
+            position: absolute;
+            color:black;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+            background-color:#9cff9d;
+            padding: 0.5rem;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <div class="gfg">
+        <img src="lp1.jpg"
+            style="width: 100%; height: 100vh;">
+        <div class="text-container">
+            <center>
+                <h1>NK MART 🛒</h1>
+                <p>
+                    More groceries | less the price | Only the best for your Home
+                </p>
+                </center>
+    
+                <hr>
+                <center>
+                    <center>
+                    <h2>Login for Shopping</h2>
+                    <form action="/login" method="post">
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <br>
+    
+                        <div>
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+                    <br>
+                </center>
+        </div>
+    </div>
+ 
+</body>
+
+</html>
